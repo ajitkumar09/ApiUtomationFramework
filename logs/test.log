@@ -1,0 +1,24 @@
+10:59:23.483 [main] INFO  com.api.listeners.TestListeners - Test uite Started!!!
+10:59:27.353 [main] ERROR com.api.listeners.TestListeners - Faild!!loginTest
+10:59:27.435 [main] INFO  com.api.listeners.TestListeners - Test uite Completed!!!
+11:00:42.728 [main] INFO  com.api.listeners.TestListeners - Test uite Started!!!
+11:00:45.035 [main] ERROR com.api.listeners.TestListeners - Faild!!loginTest
+11:00:45.086 [main] INFO  com.api.listeners.TestListeners - Test uite Completed!!!
+09:28:35.780 [main] INFO  com.api.listeners.TestListeners - Test uite Started!!!
+09:28:37.031 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+09:28:37.031 [main] INFO  com.api.filters.LoggingFilter - REQUEST METHOD: POST
+09:28:37.036 [main] INFO  com.api.filters.LoggingFilter - REQUEST PATH: http://64.227.160.186:8080/api/auth/login
+09:28:37.036 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+09:28:37.036 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY: {"username":"uday1234","password":"uday1234"}
+09:28:39.767 [main] ERROR com.api.listeners.TestListeners - Faild!!loginTest
+09:28:39.839 [main] INFO  com.api.listeners.TestListeners - Test uite Completed!!!
+09:30:14.875 [main] INFO  com.api.listeners.TestListeners - Test uite Started!!!
+09:30:15.925 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+09:30:15.925 [main] INFO  com.api.filters.LoggingFilter - REQUEST METHOD: POST
+09:30:15.929 [main] INFO  com.api.filters.LoggingFilter - REQUEST PATH: http://64.227.160.186:8080/api/auth/login
+09:30:15.930 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+09:30:15.930 [main] INFO  com.api.filters.LoggingFilter - REQUEST BODY: {"username":"uday1234","password":"uday1234"}
+09:30:18.574 [main] ERROR com.api.listeners.TestListeners - Faild!!loginTest
+09:30:18.635 [main] INFO  com.api.listeners.TestListeners - Test uite Completed!!!
