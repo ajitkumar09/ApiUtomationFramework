@@ -8,6 +8,10 @@ on:
     branches:
       - master
 
+  schedule:
+    - cron: "00 18 * * *"   # Runs daily at 6:00 PM UTC
+    - cron: "00 03 * * *"   # Runs daily at 3:00 AM UTC
+
 jobs:
   api-tests:
     name: Run API Automation Tests
@@ -31,5 +35,3 @@ jobs:
 
       - name: Run TestNG Suite
         run: mvn clean test -Dsuite=suite
-
-
